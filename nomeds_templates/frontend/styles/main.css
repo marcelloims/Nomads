@@ -1,0 +1,28 @@
+body {
+  background-color: #E4E6EB;
+  font-family: 'Assistant', sans-serif;
+  color: #071c4d;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px  !important;
+  margin-right: -18px !important;
+  height: 70px;
+  border-radius: 0;
+}
+
+.btn-login {
+  background-color: #071c4d;
+  color: #FFFFFF;
+}
+
+.btn-login:hover {
+  background-color: #1341ad;
+  color: #FFFFFF;
+}
+/*# sourceMappingURL=main.css.map */
