@@ -1,0 +1,389 @@
+body {
+  background-color: #ffffff;
+  font-family: "Assistant", sans-serif;
+  color: #071c4d;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+  font-size: 18px;
+  color: #071c4d;
+}
+.navbar-light .navbar-nav .nav-item .nav-link.active {
+  font-weight: bold;
+  color: #071c4d !important;
+}
+.navbar-light .navbar-nav .nav-item .dropdown-item {
+  color: #071c4d;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  height: 70px;
+  border-radius: 0;
+}
+
+.btn-login {
+  background-color: #071c4d;
+  color: #FFFFFF;
+}
+.btn-login:hover {
+  background-color: #1341ad;
+  color: #FFFFFF;
+}
+
+header {
+  padding: 180px 0 165px;
+  margin-top: -70px;
+  background-image: url("../images/Header.jpg");
+  background-size: cover;
+}
+header h1,
+header p {
+  color: #FFFFFF;
+}
+header h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+header p {
+  font-size: 22px;
+}
+header .btn-get-started {
+  background-color: #ff9e53;
+  color: #FFFFFF;
+}
+header .btn-get-started:hover {
+  background-color: #b88863;
+  color: #E4E6EB;
+}
+
+.section-stats {
+  margin-top: -55px;
+}
+.section-stats .stats-detail {
+  padding-top: 15px;
+  background-color: #FFFFFF;
+  padding-left: 40px;
+}
+.section-stats h2 {
+  font-family: "Assistant", serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: left;
+}
+.section-stats p {
+  font-family: "Assistant", serif;
+  font-weight: normal;
+  font-size: 18px;
+  text-align: left;
+}
+
+.section-popular {
+  min-height: 540px;
+  background-color: #051334;
+  margin-top: -50px;
+  margin-bottom: -230px;
+}
+.section-popular .section-popular-heading {
+  margin-top: 150px;
+}
+.section-popular .section-popular-heading h2,
+.section-popular .section-popular-heading p {
+  color: #FFFFFF;
+}
+.section-popular .section-popular-heading h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+.section-popular .section-popular-heading p {
+  font-size: 18px;
+}
+
+.section-popular-content .section-popular-travel .card-travel {
+  min-height: 380px;
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+.section-popular-content .section-popular-travel .travel-country {
+  font-size: 18px;
+  color: #FFFFFF;
+}
+.section-popular-content .section-popular-travel .travel-location {
+  font-size: 26px;
+  color: #FFFFFF;
+}
+.section-popular-content .section-popular-travel .travel-button .btn-travel-details {
+  background-color: #ff9e53;
+  color: #FFFFFF;
+}
+.section-popular-content .section-popular-travel .travel-button .btn-travel-details:hover {
+  background-color: #b88863;
+  color: #FFFFFF;
+}
+
+.section-networks {
+  background-color: #FFFFFF;
+  margin-top: -170px;
+  padding-top: 240px;
+  padding-bottom: 50px;
+}
+.section-networks h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: left;
+}
+.section-networks p {
+  font-size: 18px;
+}
+.section-networks img {
+  max-width: 100%;
+}
+
+.section-testimonial-heading {
+  background: linear-gradient(rgba(255, 255, 255, 0.04) 0%, #a3d6ff 100%);
+  padding-top: 50px;
+  min-height: 506px;
+}
+.section-testimonial-heading h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+.section-testimonial-heading p {
+  font-size: 18px;
+}
+
+.section-testimonial-content {
+  margin-top: -300px;
+  padding-bottom: 50px;
+}
+.section-testimonial-content .card-testimonial {
+  padding: 40px 20px 10px;
+  border-radius: 11px;
+  margin-bottom: 20px;
+}
+.section-testimonial-content .card-testimonial .testimonial-content {
+  min-height: 380px;
+}
+.section-testimonial-content .card-testimonial h3 {
+  font-size: 22px;
+}
+.section-testimonial-content .card-testimonial .testimonial {
+  font-weight: 200px;
+  font-size: 26px;
+  color: #6e6e6e;
+}
+.section-testimonial-content .card-testimonial .trip-to {
+  font-weight: normal;
+  font-size: 20px;
+  color: #6e6e6e;
+}
+.section-testimonial-content .card-testimonial hr {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+.section-testimonial-content .btn-get-started {
+  background-color: #ff9e53;
+  color: #FFFFFF;
+}
+.section-testimonial-content .btn-get-started:hover {
+  background-color: #b88863;
+  color: #ffffff;
+}
+.section-testimonial-content .btn-need-help {
+  background-color: #706d6b;
+  color: #FFFFFF;
+}
+.section-testimonial-content .btn-need-help:hover {
+  background-color: #B4ADA8;
+  color: #ffffff;
+}
+
+.section-footer {
+  background-color: #ffffff;
+}
+.section-footer a {
+  color: #071c4d;
+}
+
+.section-details-header {
+  min-height: 310px;
+  background: radial-gradient(rgba(255, 255, 255, 0.04) 0%, #a3d6ff 100%);
+  margin-top: -70px;
+}
+
+.section-details-content {
+  margin-top: -210px;
+  min-height: 100vh;
+}
+.section-details-content .breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-button: 30px;
+}
+.section-details-content .breadcrumb-item.active {
+  font-weight: bold;
+  color: #071c4d;
+}
+.section-details-content .card-details {
+  padding: 30px;
+  border-radius: 11px;
+}
+.section-details-content .card-details h1 {
+  font-size: 26px;
+}
+.section-details-content .card-details h2 {
+  font-size: 20px;
+}
+.section-details-content .card-details p {
+  font-size: 18px;
+  color: #b1b1b1;
+}
+.section-details-content .card-details .trip-information th {
+  font-weight: 300;
+  font-size: 18px;
+  color: #071c4d;
+}
+.section-details-content .card-details .trip-information td {
+  font-weight: 300;
+  font-size: 18px;
+  color: #b1b1b1;
+}
+.section-details-content .card-details h3 {
+  font-weight: 300;
+  font-size: 14px;
+  color: #071c4d;
+}
+.section-details-content .card-details .disclaimer {
+  font-weight: 300;
+  font-size: 14px;
+  color: #b1b1b1;
+}
+.section-details-content .card-details .btn-add-now {
+  background-color: #071c4d;
+  color: #FFFFFF;
+}
+.section-details-content .card-details .btn-add-now:hover {
+  background-color: #083ebb;
+  color: #FFFFFF;
+}
+.section-details-content .card-details .text-blue {
+  color: #071c4d;
+  font-weight: bold;
+}
+.section-details-content .card-details .text-orange {
+  color: #db7f38;
+  font-weight: bold;
+}
+.section-details-content .card-details .payment-instructions {
+  font-weight: 300;
+  font-size: 14px;
+  color: #b1b1b1;
+}
+.section-details-content .card-details .bank .bank-item h3 {
+  font-size: 18px;
+  color: #071c4d;
+  margin-bottom: 0;
+}
+.section-details-content .card-details .bank .bank-item p {
+  margin-bottom: 0;
+}
+.section-details-content .card-details .bank .bank-item .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+.section-details-content .card-details .bank .bank-item .description p {
+  font-weight: normal;
+  font-size: 16px;
+  color: #071c4d;
+}
+.section-details-content .card-details .bank .bank-images {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+.section-details-content .features {
+  margin-top: 20px;
+}
+.section-details-content .features h3 {
+  font-size: 18px;
+  color: #071c4d;
+  margin-bottom: 0;
+}
+.section-details-content .features .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+.section-details-content .features .about-images {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+.section-details-content .gallery .xzoom-container {
+  display: block;
+}
+.section-details-content .gallery .xzoom-container .xzoom {
+  width: 100%;
+  box-shadow: none;
+  margin-bottom: 10px;
+}
+.section-details-content .gallery .xzoom-container .xactive {
+  border: 4px solid #1abc9c;
+  box-shadow: none;
+}
+.section-details-content .member .member-image {
+  width: 40px;
+  width: 40px;
+}
+.section-details-content .join-container {
+  margin-top: -10 px;
+}
+.section-details-content .btn-join-now {
+  background-color: #ff9e53;
+  color: #FFFFFF;
+  border-radius: 11px;
+}
+.section-details-content .btn-join-now:hover {
+  background-color: #db7f38;
+  color: #FFFFFF;
+}
+
+.section-success {
+  height: 90vh;
+}
+.section-success h1 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #071c4d;
+}
+.section-success p {
+  font-weight: 300;
+  font-size: 18px;
+  color: #b1b1b1;
+}
+.section-success .btn-home-page {
+  border-radius: 4px;
+  background-color: #071c4d;
+  color: #FFFFFF;
+}
+.section-success .btn-home-page:hover {
+  background-color: #083ebb;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=style.css.map */

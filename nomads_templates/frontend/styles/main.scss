@@ -1,0 +1,537 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Assistant', sans-serif;
+  color: #071c4d;
+  // font-family: 'Playfair Display', serif;
+}
+
+
+// ========== index.html ==========
+// ===== Navbar =====
+.navbar-brand {
+  img {
+    max-height: 40px;
+  }
+}
+
+.navbar-light {
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        font-size: 18px;
+        color: #071c4d;
+
+        &.active {
+          font-weight: bold;
+          color: #071c4d !important;
+        }
+      }
+
+      .dropdown-item {
+        color:
+          #071c4d;
+      }
+    }
+  }
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+
+  height: 70px;
+  border-radius: 0;
+}
+
+.btn-login {
+  background-color: #071c4d;
+  color: #FFFFFF;
+
+  &:hover {
+    background-color: #1341ad;
+    color: #FFFFFF;
+  }
+}
+
+// ===== Navbar =====
+
+
+
+// ===== Header =====
+header {
+  padding: 180px 0 165px;
+  margin-top: -70px;
+  background-image: url('../images/Header.jpg');
+  background-size: cover;
+
+  h1,
+  p {
+    color: #FFFFFF;
+  }
+
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 50px;
+  }
+
+  p {
+    font-size: 22px;
+  }
+
+  .btn-get-started {
+    background-color: #ff9e53;
+    color: #FFFFFF;
+
+    &:hover {
+      background-color: #b88863;
+      color: #E4E6EB;
+    }
+  }
+}
+
+// ===== Header =====
+
+
+
+// ===== Statistic =====
+.section-stats {
+  margin-top: -55px;
+
+  .stats-detail {
+    padding-top: 15px;
+    background-color: #FFFFFF;
+    padding-left: 40px;
+  }
+
+  h2 {
+    font-family: 'Assistant', serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
+  }
+
+  p {
+    font-family: 'Assistant', serif;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: left;
+  }
+}
+
+// ===== Statistic =====
+
+
+
+// ===== Wisata Popular =====
+.section-popular {
+  min-height: 540px;
+  background-color: #051334;
+  margin-top: -50px;
+  margin-bottom: -230px;
+
+  .section-popular-heading {
+    margin-top: 150px;
+
+    h2,
+    p {
+      color: #FFFFFF;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-weight: bold;
+      font-size: 40px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+}
+
+.section-popular-content {
+  .section-popular-travel {
+    .card-travel {
+      min-height: 380px;
+      background-color: #000000;
+      color: #FFFFFF;
+      padding: 30px;
+      background-size: cover;
+      margin-bottom: 20px;
+    }
+
+    .travel-country {
+      font-size: 18px;
+      color: #FFFFFF;
+    }
+
+    .travel-location {
+      font-size: 26px;
+      color: #FFFFFF;
+    }
+
+    .travel-button {
+      .btn-travel-details {
+        background-color: #ff9e53;
+        color: #FFFFFF;
+
+        &:hover {
+          background-color: #b88863;
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+}
+
+// ===== Wisata Popular ===== 
+
+
+
+// ===== Our Networks =====
+.section-networks {
+  background-color: #FFFFFF;
+  margin-top: -170px;
+  padding-top: 240px;
+  padding-bottom: 50px;
+
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: left;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
+
+// ===== Our Networks ===== 
+
+
+
+// ===== Testimonial =====
+.section-testimonial-heading {
+  background: linear-gradient(rgba(255, 255, 255, 0.04) 0%, #a3d6ff 100%);
+  padding-top: 50px;
+  min-height: 506px;
+
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+.section-testimonial-content {
+  margin-top: -300px;
+  padding-bottom: 50px;
+
+  .card-testimonial {
+    padding: 40px 20px 10px;
+    border-radius: 11px;
+    margin-bottom: 20px;
+
+    .testimonial-content {
+      min-height: 380px;
+    }
+
+    h3 {
+      font-size: 22px;
+    }
+
+    .testimonial {
+      font-weight: 200px;
+      font-size: 26px;
+      color: #6e6e6e;
+    }
+
+    .trip-to {
+      font-weight: normal;
+      font-size: 20px;
+      color: #6e6e6e;
+    }
+
+    hr {
+      margin-left: -20px;
+      margin-right: -20px;
+    }
+  }
+
+  .btn-get-started {
+    background-color: #ff9e53;
+    color: #FFFFFF;
+
+    &:hover {
+      background-color: #b88863;
+      color: #ffffff;
+    }
+  }
+
+  .btn-need-help {
+    background-color: #706d6b;
+    color: #FFFFFF;
+
+    &:hover {
+      background-color: #B4ADA8;
+      color: #ffffff;
+    }
+  }
+}
+
+// ===== Testimonial ===== 
+
+
+
+// ===== Footer =====
+.section-footer {
+  background-color: #ffffff;
+
+  a {
+    color: #071c4d;
+  }
+}
+
+// ===== Footer =====
+// ========== index.html ==========
+
+
+
+// ========== detail.html ==========
+// ===== breadcrumb =====
+.section-details-header {
+  min-height: 310px;
+  background: radial-gradient(rgba(255, 255, 255, 0.04) 0%, #a3d6ff 100%);
+  margin-top: -70px;
+}
+
+.section-details-content {
+  margin-top: -210px;
+  min-height: 100vh;
+
+  .breadcrumb {
+    background-color: transparent;
+    padding: 0;
+    margin-button: 30px;
+  }
+
+  .breadcrumb-item {
+    &.active {
+      font-weight: bold;
+      color: #071c4d;
+    }
+  }
+
+  .card-details {
+    padding: 30px;
+    border-radius: 11px;
+
+    h1 {
+      font-size: 26px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      color: #b1b1b1;
+    }
+
+    .trip-information {
+      th {
+        font-weight: 300;
+        font-size: 18px;
+        color: #071c4d;
+      }
+
+      td {
+        font-weight: 300;
+        font-size: 18px;
+        color: #b1b1b1;
+      }
+    }
+
+    h3 {
+      font-weight: 300;
+      font-size: 14px;
+      color: #071c4d;
+    }
+
+    .disclaimer {
+      font-weight: 300;
+      font-size: 14px;
+      color: #b1b1b1;
+    }
+
+    .btn-add-now {
+      background-color: #071c4d;
+      color: #FFFFFF;
+
+      &:hover {
+        background-color: #083ebb;
+        color: #FFFFFF;
+      }
+    }
+
+    .text-blue {
+      color: #071c4d;
+      font-weight: bold;
+    }
+
+    .text-orange {
+      color: #db7f38;
+      font-weight: bold;
+    }
+
+    .payment-instructions {
+      font-weight: 300;
+      font-size: 14px;
+      color: #b1b1b1;
+    }
+
+    .bank {
+      .bank-item {
+        h3 {
+          font-size: 18px;
+          color: #071c4d;
+          margin-bottom: 0;
+        }
+
+        p {
+          margin-bottom: 0;
+        }
+
+        .description {
+          margin-left: 10px;
+          overflow: hidden;
+          float: left;
+
+          p {
+            font-weight: normal;
+            font-size: 16px;
+            color: #071c4d;
+          }
+
+
+        }
+      }
+
+      .bank-images {
+        width: 45px;
+        height: 45px;
+        float: left;
+      }
+    }
+  }
+
+  .features {
+    margin-top: 20px;
+
+    h3 {
+      font-size: 18px;
+      color: #071c4d;
+      margin-bottom: 0;
+    }
+
+    .description {
+      margin-left: 10px;
+      overflow: hidden;
+      float: left;
+    }
+
+    .about-images {
+      width: 45px;
+      height: 45px;
+      float: left;
+    }
+  }
+
+  .gallery {
+    .xzoom-container {
+      display: block;
+
+
+      .xzoom {
+        width: 100%;
+        box-shadow: none;
+        margin-bottom: 10px;
+      }
+
+      .xactive {
+        border: 4px solid #1abc9c;
+        box-shadow: none;
+      }
+    }
+  }
+
+  .member {
+    .member-image {
+      width: 40px;
+      width: 40px;
+    }
+  }
+
+  .join-container {
+    margin-top: -10 px;
+  }
+
+  .btn-join-now {
+    background-color: #ff9e53;
+    color: #FFFFFF;
+    border-radius: 11px;
+
+    &:hover {
+      background-color: #db7f38;
+      color: #FFFFFF;
+    }
+  }
+}
+
+// ===== breadcrumb ===== 
+// ========== detail.html ==========
+
+
+
+// ========== success.html ==========
+.section-success {
+  height: 90vh;
+
+  h1 {
+    font-weight: 600;
+    font-size: 26px;
+    color: #071c4d;
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 18px;
+    color: #b1b1b1;
+  }
+
+  .btn-home-page {
+    border-radius: 4px;
+    background-color: #071c4d;
+    color: #FFFFFF;
+
+    &:hover {
+      background-color: #083ebb;
+      color: #ffffff;
+    }
+  }
+}
+
+// ========== success.html ==========
